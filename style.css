@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #333;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.tagline {
+  font-style: italic;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+}
+
+.about, .skills, .projects {
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.skills ul li {
+  background: #ddd;
+  padding: 0.5rem;
+  margin: 0.3rem 0;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.projects .project {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #eaeaea;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+
+footer a {
+  color: #ff6347;
+  text-decoration: none;
+}
